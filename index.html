@@ -63,27 +63,51 @@
         background-color: #F7EDE2;
       }
       
+      figure.project {
+      width: 300px;
+      float: left;
+      margin-left: 75px;
+      text-align: center;
+      }
+      
+      figure.project img {
+      border-radius: 25px;
+      width: 100%;
+      height: auto;
+}
+      
+      .imgcaption {
+        margin-top: 10px;
+      }
+      
+      .crochetproject {
+        font-family: "Cherry Bomb One";
+        font-size: 32px;
+        color: #F28482;
+        display: block;
+      }
+      
+      .description {
+        font-family: "Hi Melody";
+        font-size: 30px;
+        color: #84A59D;
+        display: block;
+      }
+      
+      
        #sample1 {
-        border-radius: 25px;
         width: 300px;
-        height: 375px;
-        float: left;
-        margin-left: 100px;
+        height: 375px; 
       }
         #sample2 {
-        border-radius: 25px;
         width: 300px;
         height: 375px;
-        float: left;
-        margin-left: 100px;
       }
         
         #sample3 {
-        border-radius: 25px;
         width: 300px;
         height: 575px;
-        float: left;
-        margin-left: 100px;
+        
       }
       
       .navlink{
@@ -105,12 +129,14 @@
         height: 90px;
         margin: 0px;
         font-size: 72px;
-        font-family: "Cherry Bomb One"
+        font-family: "Cherry Bomb One";
+        font-weight: 100;
       }
       
       h2 {
         text-align: left;
         font-family: "Cherry Bomb One";
+        font-weight: 100;
         font-size: 32px;
         color: #84A59D;
         margin: 0px;
@@ -120,6 +146,7 @@
       h3 {
         color: #A75B5A;
         font-family: "Hi Melody";
+        font-weight: 100;
         text-align: left;
         font-size: 30px;
         margin-left: 135px;
@@ -130,6 +157,7 @@
         margin: 10px 0px 5px 0px;
         text-align: center;
         font-family: "Hi Melody";
+        font-weight: 100;
         font-size: 30px;
         color: #84A59D;
       }
@@ -190,12 +218,30 @@
         
         <h2>some of my past crochet projects:</h2>
         <h3> my very first project!</h3>
+        
+        <figure class="project">
         <img id="sample1"
           src="crochet2.jpg" alt="crocheted plush of a white bunny wearing a tan hat holding a red heart with one eye, referencing the music artist Bad Bunny">
+          <figcaption class="imgcaption">
+          <span class="crochetproject">Bad Bunny</span>
+          </figcaption>
+          </figure>
+        <figure class="project">
         <img id="sample2"
              src="crochet3.jpg" alt="crocheted plush of a grey raccoon">
+          <figcaption class="imgcaption">
+          <span class="crochetproject">Raccoon Plush</span>
+          </figcaption>
+        </figure>
+        
+        <figure class="project">
         <img id="sample3"
              src="crochet1.jpg" alt="four different angles of a pink and white crocheted plush of a cat">
+            <figcaption class="imgcaption">
+            <span class="crochetproject">Cat Plush</span>
+          </figcaption>
+        </figure>
+        
         
     </div>
     <div id="footer">
